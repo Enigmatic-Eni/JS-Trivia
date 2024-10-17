@@ -1,3 +1,9 @@
-.wrapper{
-    
+.selected{
+    background-color: #e5e7eb !important;
+    color: black !important;
+    border: #bbb !important;
+    box-shadow: 0 4px 0 0 #bbb !important;
+}
+.quiz-options li:active{
+    transform: scale(0.97);
 }
